@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dev-null": "^0.1.1"
+    "dev-null": "^0.1.1",
+    "fs-extra": "^11.2.0"
   }
 }

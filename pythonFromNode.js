@@ -256,10 +256,8 @@ class IPython {
 async function main() {
     const ipython = new IPython()
     await ipython.run()
-    await ipython.command("print(1)")
-    const res = await ipython.command(
-        "from pprint import pprint\npprint(2 + 3)"
-    )
+    await ipython.command("a = 5")
+    const res = await ipython.command("print(a)")
     ipython.close()
     // ipython
     //     .command("print(1)")
